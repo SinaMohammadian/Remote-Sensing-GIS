@@ -26,7 +26,7 @@ Ce script permet de :
 - Classifier les types de surfaces à partir des données de **ESA (European Space Agency)**.
 - Produire une **carte thématique** de la zone d’étude.
 
-### 4. `Analyse_Resultats.ipynb`
+### 4. `Analyse_Resultat.ipynb`
 Ce notebook Python permet de :
 - Tracer les **diagrammes comparatifs** des zones selon leur **vulnérabilité côtière**.
 - Visualiser l’évolution de l’**Altitude Dynamique Moyenne (ADT)** en fonction du temps pour choisir la **meilleure date d’analyse**.
