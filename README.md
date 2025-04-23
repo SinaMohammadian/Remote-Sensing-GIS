@@ -17,14 +17,20 @@ Ce script permet de :
 
 ### 2. `DEM.js`
 Ce script permet de :
-- Extrait le **Modèle Numérique de Terrain (MNT/DEM)** à partir des données **SRTM**.
-- Calcule la **pente** pour identifier les zones sujettes à l’érosion ou à l’accumulation.
+- Extraire le **Modèle Numérique de Terrain (MNT/DEM)** à partir des données **SRTM**.
+- Calculer la **pente** pour identifier les zones sujettes à l’érosion ou à l’accumulation.
 
 ### 3. `LULC.js`
 Ce script permet de :
 - Générer une carte d’**occupation du sol (LULC)**.
 - Classifier les types de surfaces à partir des données de **ESA (European Space Agency)**.
 - Produire une **carte thématique** de la zone d’étude.
+
+### 4. `Analyse_Resultats.ipynb`
+Ce notebook Python permet de :
+- Tracer les **diagrammes comparatifs** des zones selon leur **vulnérabilité côtière**.
+- Visualiser l’évolution de l’**Altitude Dynamique Moyenne (ADT)** en fonction du temps pour choisir la **meilleure date d’analyse**.
+- Appuyer les interprétations avec des graphiques clairs et structurés.
 
 ---
 
@@ -33,8 +39,9 @@ Ce script permet de :
 - Google Earth Engine (GEE)
 - Données SRTM (NASA)
 - Produits ESA WorldCover
-- Javascript (API GEE)
+- JavaScript (API GEE)
 - QGIS (pour la visualisation complémentaire)
+- Python & Jupyter Notebook (matplotlib, pandas, etc.)
 
 ---
 
@@ -44,6 +51,14 @@ Ce projet a été réalisé par **Sina Mohammadian** dans le cadre du module aca
 
 ---
 
+## 📌 Données
+
+Les **scripts GEE** et le notebook Python sont accessibles publiquement à l’adresse suivante :  
+👉 [https://github.com/SinaMohammadian/Remote-Sensing-GIS](https://github.com/SinaMohammadian/Remote-Sensing-GIS)
+
+---
+
 ## 📌 Remarque
+
 Les résultats générés sont destinés à des fins académiques et illustrent le potentiel des outils de télédétection pour le suivi environnemental du littoral.
 
